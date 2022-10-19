@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/taller.css">
+    <title>TALLER DAW</title>
+</head>
+<body>
+    
+    <div class="form-1" id="form">
+       
+        <div class="row">
+            <div class="col-8 offset-2">
+                <form id="formulario" class="p-3 mt-5 shadow border">
+                    <h2 class="title">Interfaz para el control de automóviles</h2>
+                    
+                <input id="nombre" class="nombre" type="text" placeholder="ingrese su nombre">
+
+                <button class="btn btn-primary mt-2" type="submit">MOSTRAR DATOS</button>
+                </form>
+                <hr>
+
+                <h3 id="respuesta" class="text-center fw-light">   
+                </h3>
+            </div>
+        </div>
+
+    <div>
+        <h1 class="datos-1">Datos del dueño del carro:</h1>
+
+        <form class="form2" id="form2" >
+            <h4>DUI</h4>
+            <input type="number" placeholder="Insertar DUI">
+            <h4>NIT</h4>
+            <input type="number" placeholder="Insertar NIT">
+
+            <h1 class="datos-1">Datos del carro:</h1>
+
+            <h4>Marca</h4>
+            <input for="1" name="1" type="text" placeholder="Marca" id="1">
+
+            <h4>Modelo</h4>
+            <input for="2" name="2"  type="text" placeholder="Modelo" id="2">
+
+            <h4>año</h4>
+            <input for="3" name="3" type="number" placeholder="año" id="3">
+
+            <h4>Placa</h4>
+            <input for="4" name="4" type="text" placeholder="Placa" id="4">
+
+            <h4>Fallas</h4>
+            <textarea name="fallas" id="" cols="30" rows="10" placeholder="(Describir las fallas que presenta el automóvil)
+            "></textarea>
+
+            <BUtton class="submit">Añadir</BUtton>
+
+            <div class="tableforma">
+                <table id="transactionTable">
+                    <tr>
+                        <th>DUI</th>
+                        <th>NIT</th>
+                        <th>Marca</th>
+                        <th>Modelo</th>
+                        <th>Año</th>
+                        <th>Placa</th>
+
+                    </tr>
+                </table>
+            </div>
+            
+
+
+
+            
+        </form>
+    </div>
+
+
+    </div>
+    
+    <script src="js/taller.js"></script>
+</body>
+</html>

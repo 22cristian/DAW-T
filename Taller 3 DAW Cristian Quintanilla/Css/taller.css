@@ -1,0 +1,47 @@
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+body{
+    background: #ef1440, #FA6C17;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left,#ef1440 , #FA6C17);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left,#1431ef, #17fab2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no repeat;
+    background-size: cover;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.datos-1{
+    text-align: center;
+}
+
+.form-1{
+    text-align: center;
+}
+
+.form2{
+    text-align: center;
+
+}
+
+th{
+    padding: 10px;
+    border: #ef1440 solid 2px;
+
+}
+
+.tableforma table{
+    margin: 0 auto;
+}
